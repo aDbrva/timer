@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таймер</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    
+</head>
+<body>
+    <div class="input-field">
+        <form class="input-form" action="">
+            <h1>Таймер</h1>
+            <input class="time-amount" type="text" placeholder="Кількість секунд">
+            <input class="start-timer" type="button" value="Старт">
+        </form>
+    </div>
+
+    <div class="container">
+        <h1>Таймер</h1>
+        <div class="timer">
+            <div class="hours">
+                <span>00</span>
+                годин
+            </div>
+            <div class="minutes">
+                <span>00</span>
+                хвилин
+            </div>
+            <div class="seconds">
+                <span>00</span>
+                секунд
+            </div>
+        </div>
+        <div class="control-btns">
+            <button class="stop">Стоп</button>
+            <button class="pause">Пауза</button>
+            <button class="continue">Старт</button>
+        </div>
+        
+    </div>
+
+    <audio id="audio" src="audio/mus.mp3"></audio>
+
+    <script src="app.js"></script>
+</body>
+</html>

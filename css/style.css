@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: none;
+    max-width: 750px;
+    margin: 260px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.timer {
+    display: flex;
+    margin: 40px auto;
+    justify-content: space-between;
+}
+
+span {
+    display: block;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    max-width: 750px;
+    margin: 250px auto;
+    text-align: center;
+}
+
+.input-field h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;;
+}
+
+
+.time-amount {
+    padding: 10px 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(148, 148, 148);
+    border-radius: 6px;
+    outline: none;
+    width: 100%;
+}
+
+.time-amount:focus {
+    border: 2px solid #555;
+}
+
+
+.start-timer {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 14px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.start-timer:hover {
+    background-color: #429844;
+}
+
+.control-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stop {
+    width: 48%;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 14px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.pause {
+    width: 48%;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 14px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.continue {
+    display: none;
+    width: 48%;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 14px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.stop:hover {
+    background-color: #429844;
+}
+
+.pause:hover {
+    background-color: #429844;
+}
+
+.continue:hover {
+    background-color: #429844;
+}
